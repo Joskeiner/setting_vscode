@@ -1,0 +1,252 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "editor.formatOnSave": true,
+    "launch": {},
+    "[json]": {},
+    "zenMode.hideLineNumbers": false,
+    "editor.lineNumbers": "relative",
+    "window.customTitleBarVisibility": "auto",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Navitation
+        // buffer   b
+        // {
+        //   "before": ["[", "b"],
+        //   "commands": [":bprevious"]
+        // },
+        // {
+        //   "before": ["]", "b"],
+        //   "commands": [":bnext"]
+        // },
+        // keybord in spanish
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "n"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        // // // // //aplits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b",
+                "d"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        //  comment selection
+        // {
+        //   "before": ["leader", "/"],
+        //   "commands": ["editor.action.commentLine"]
+        // },
+        //  comment selection
+        // in spanish
+        {
+            "before": [
+                "leader",
+                "C"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        // //    // view definition
+        {
+            "before": [
+                "shift+k"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        // file quick file
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "p"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "m",
+                "n"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        // toggle comment selection
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        }, // Stay in visual mode while indenting
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        }
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0.5,
+    "php.debug.executablePath": "/usr/bin/php",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "database-client.autoSync": true,
+    "workbench.activityBar.location": "top",
+    "window.menuBarVisibility": "toggle"
+}
